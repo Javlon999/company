@@ -1,0 +1,99 @@
+/*responsive css */
+
+@include mediaLg {
+  .carousel-caption {
+    padding-bottom: 160px;
+  }
+  .carousel-caption h2 {
+    font-size: 45px;
+  }
+  img.img-responsive.right-block {
+    display: none;
+  }
+  
+  .imghover
+{
+  
+  .container{
+    width:100%;
+    margin:50px auto 0;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    
+
+  }
+  .container .box{
+    position:relative;
+    width:293px;
+    height:250px;
+    background:#ff0;
+    margin:1px;
+    box-sizing:border-box;
+    display:inline-block;
+    
+   
+  }
+}
+}
+@include mediaMd {
+  .navbar-fixed-top.scrolled {
+    display: none;
+  }
+  .navbar-inverse .navbar-brand {
+    font-size: 30px;
+    padding: 20px 15px;
+  }
+  .navbar-collapse {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .carousel-caption {
+    padding-bottom: 180px;
+  }
+  .carousel-caption h2 {
+    font-size: 25px;
+  }
+  .carousel-caption h3 {
+    font-size: 18px;
+  }
+  .carousel-caption a {
+    padding: 10px 25px;
+  }
+  img.img-responsive.right-block {
+    display: none;
+  }
+}
+@include mediaSm {
+  .navbar-fixed-top.scrolled {
+    display: none;
+  }
+  .navbar-inverse .navbar-brand {
+    font-size: 20px;
+    padding: 15px 10px;
+  }
+
+  .navbar-collapse {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .carousel-caption {
+    padding-bottom: 140px;
+  }
+  .carousel-caption h2 {
+    font-size: 20px;
+  }
+  .carousel-caption h3 {
+    font-size: 14px;
+  }
+  .carousel-caption a {
+    padding: 8px 20px;
+  }
+  img.img-responsive.right-block {
+    display: none;
+  
+  }
+}
+@include mediaXLg{
+
+
+
+}
